@@ -1,7 +1,7 @@
 # Hubs, spokes, and other wheel metaphors
 
 Since we now have two different versions, and users can request either
-versions, we'll have to define a way to convert between our version. For
+version, we'll have to define a way to convert between our versions. For
 CRDs, this is done using a webhook, similar to the defaulting and
 validating webhooks we [defined in the base
 tutorial](/cronjob-tutorial/webhook-implementation.md).  Like before,
