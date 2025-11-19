@@ -136,7 +136,7 @@ type CronJobStatus struct {
 /*
  Since we'll have more than one version, we'll need to mark a storage version.
  This is the version that the Kubernetes API server uses to store our data.
- We'll chose the v1 version for our project.
+ We'll choose the v1 version for our project.
 
  We'll use the [`+kubebuilder:storageversion`](/reference/markers/crd.md) to do this.
 
