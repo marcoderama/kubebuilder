@@ -2,8 +2,8 @@
 
 With our model for conversion in place, it's time to actually implement
 the conversion functions.  We'll create a conversion webhook
-for our CronJob API version `v1` (Hub) to Spoke our CronJob API version
-`v2` see:
+for our CronJob API version `v1` (Hub) to our CronJob API version
+`v2` (Spoke):
 
 ```go
 kubebuilder create webhook --group batch --version v1 --kind CronJob --conversion --spoke v2
