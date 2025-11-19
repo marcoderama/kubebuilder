@@ -1,7 +1,7 @@
 # Hubs, spokes, and other wheel metaphors
 
 Since we now have two different versions, and users can request either
-version, we'll have to define a way to convert between our version. For
+versions, we'll have to define a way to convert between our version. For
 CRDs, this is done using a webhook, similar to the defaulting and
 validating webhooks we [defined in the base
 tutorial](/cronjob-tutorial/webhook-implementation.md).  Like before,
@@ -23,7 +23,7 @@ This works fine when we just have two versions, but what if we had
 
 Instead, controller-runtime models conversion in terms of a "hub and
 spoke" model -- we mark one version as the "hub", and all other versions
-just define conversion to and from the hub:
+just define conversions to and from the hub:
 
 <!-- include these inline so we can style an match variables -->
 <div class="diagrams">
