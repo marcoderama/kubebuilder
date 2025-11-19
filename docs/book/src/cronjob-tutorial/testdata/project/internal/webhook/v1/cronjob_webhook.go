@@ -69,7 +69,7 @@ The meaning of each marker can be found [here](/reference/markers/webhook.md).
 */
 
 /*
-This marker is responsible for generating a mutation webhook manifest.
+This marker is responsible for generating a mutating webhook manifest.
 */
 
 // +kubebuilder:webhook:path=/mutate-batch-tutorial-kubebuilder-io-v1-cronjob,mutating=true,failurePolicy=fail,sideEffects=None,groups=batch.tutorial.kubebuilder.io,resources=cronjobs,verbs=create;update,versions=v1,name=mcronjob-v1.kb.io,admissionReviewVersions=v1
